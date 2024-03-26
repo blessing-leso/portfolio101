@@ -186,6 +186,9 @@ body{
     text-align: center;
     font-size: 61px;
     padding-bottom: 70px;
+    padding-top: 50px;
+    margin-top: 2px;
+
 }
 .title span{
     color:#ff10f0;
@@ -317,12 +320,12 @@ body{
 }
 
 .main-text{
-    padding-top: 130px;
-    margin-top: 200px;
+    padding-top: 30px;
+    margin-top: 2px;
 }
 .main-text h2{
     font-size: 60px;
-    line-height: 1.5;
+    line-height: 2;
     text-align: center;
 }
 .main-text h2 span{ 
