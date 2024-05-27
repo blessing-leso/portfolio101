@@ -620,5 +620,54 @@ body{
         opacity: 0;
     }
 }
+/* Example media query for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .header {
+        padding: 15px 5%;
+    }
+    .navbar{
+        visibility: hidden;
+    }
+    /* Add more styles as needed */
+}
 
+/* Example of using flexbox for layout */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px 5% 0;
+}
 
+/* Example of making images responsive */
+.about-pic img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Example of using flexbox for service items */
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.icons {
+    height: 15%;
+    width: 20%;
+}
+/* Example of adjusting font size for smaller screens */
+.title {
+    font-size: 36px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-top: 2px;
+}
+
+/* Example of using flexbox for contact section */
+
+    .contact {
+        visibility: hidden;
+    }
