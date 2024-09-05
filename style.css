@@ -394,7 +394,7 @@ body{
     height: 100%;
 }
 
-.contact{
+.contacte{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -416,7 +416,7 @@ body{
     bottom: 2.1rem;
     right: 2.1rem;
 }
-.contact-text{
+.contacte-text{
     font-size: 90px;
     line-height: 1;
     text-align: center;
@@ -428,47 +428,47 @@ body{
     padding:10px;
     border-radius: 0.5rem;;
 }
-.contact-text h2 span{
+.contacte-text h2 span{
     color:#ff10f0
 }
-.contact-text h4{
+.contacte-text h4{
     margin: 15px 0;
     color: rgb(228,228,228);
     font-size: 20px;
     font-weight: 600;
 }
-.contact-text p{
+.contacte-text p{
     color: rgb(177,177,177);
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 2rem;
 }
-.contact-list{
+.contacte-list{
     margin-bottom: 3rem;
 
 }
-.contact-list li{
+.contacte-list li{
     color: #ff10f0;
     display: inline-block;
     font-size: 20px;
     font-weight: 600;
     transition: all .40 ease;
 }
-.contact-lst li a:hover{
+.contacte-lst li a:hover{
     transform: scale(1.01) translateY(-5px);
     color: #ff10f0;
 
 }
 
-.contact-list i{
+.contacte-list i{
     margin-bottom: 10px;
     display: block;
     color: #ff10f0;
 }
-.contact-form form{
+.contacte-form form{
     position: relative;
 }
-.contact-form form input,form textarea{
+.contacte-form form input,form textarea{
     border: none;
     outline: none;
     width: 90%;
@@ -480,11 +480,11 @@ body{
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
 }
-.contact-form textarea{
+.contacte-form textarea{
     resize: none;
     height: 220px;
 }
-.contact-form form .send{
+.contacte-form form .send{
     display: inline-block;
     padding: 14px 60px;
     background-color: #ff10f0;
@@ -500,7 +500,7 @@ body{
     box-shadow: 0 0 5px #ff10f0, 0 0 25px #ff10f0;
 }
 
-.contact-form form .send:hover {
+.contacte-form form .send:hover {
     box-shadow: 0 0 5px #ff10f0, 0 0 25px #ff10f0, 0 0 50px #ff10f0, 0 0 100px #ff10f0, 0 0 200px #ff10f0;
     color: #001b29;
     box-shadow: 0 0 20px #ff10f0;
@@ -666,8 +666,4 @@ body{
     margin-top: 2px;
 }
 
-/* Example of using flexbox for contact section */
 
-    .contact {
-        visibility: hidden;
-    }
